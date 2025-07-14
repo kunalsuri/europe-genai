@@ -1,6 +1,6 @@
 # Europe GenAI
 
-A curated space tracking the latest GenAI efforts across Europe and Switzerland 🇪🇺🇨🇭
+A curated space tracking the latest GenAI efforts across Europe 🇪🇺 and Switzerland 🇨🇭
 
 ## Contents
 
