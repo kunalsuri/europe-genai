@@ -1,42 +1,341 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Europe GenAI</title>
+  <title>Europe GenAI Hub</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 20px;
-      line-height: 1.6;
-    }
-    h1 {
-      font-size: 2em;
-      color: #003366;
-    }
-    ul {
-      list-style-type: square;
-    }
-    a {
-      color: #0056b3;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
+    body { font-family: 'Segoe UI', sans-serif; background:#f9fafc; color:#333; margin:0; padding:0;}
+    header { background:linear-gradient(to right,#0056b3,#00aaff); color:#fff; padding:40px 20px; text-align:center;}
+    header h1 { margin:0; font-size:2.8em; }
+    header p { margin-top:10px; font-size:1.2em; }
+    main { max-width:1100px; margin:40px auto; padding:0 20px; }
+    section { margin-bottom:60px; }
+    h2 { color:#003366; border-bottom:2px solid #ccc; padding-bottom:8px; }
+    a { color:#0056b3; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    table { width:100%; border-collapse:collapse; margin-top:20px; }
+    th, td { padding:12px; border-bottom:1px solid #ccc; text-align:left; }
+    th { background-color:#0074d9; color:#fff; }
+    tr:hover { background-color:#e0f0ff; }
+    .note { margin-top: 10px; font-size: 0.9em; color: #666; }
+    .cta { display:inline-block; margin-top:15px; padding:12px 20px; background:#0074d9; color:white; border-radius:5px; text-decoration:none; }
+    .cta:hover { background:#005fa3; }
   </style>
 </head>
 <body>
-  <h1>🌍 Europe GenAI</h1>
-  <p>This platform curates key developments in Generative AI across Europe and Switzerland — including open-source LLMs, public initiatives, and trusted datasets.</p>
-  <ul>
-    <li><a href="https://github.com/kunalsuri/europe-genai">GitHub Repository</a></li>
-    <li><a href="docs/llms.md">🧠 Open LLMs</a></li>
-    <li><a href="docs/policies.md">📜 AI Policies</a></li>
-    <li><a href="docs/projects.md">🏢 Projects & Labs</a></li>
-  </ul>
-  <p>Maintained by <strong>@kunalsuri</strong> | Powered by Hugging Face & GitHub</p>
+  <header>
+    <h1>🌍 Europe GenAI Hub</h1>
+    <p>Open-source project mapping European and Swiss GenAI models, policies, and initiatives.</p>
+  </header>
+  <main>
+    <section>
+      <h2>⚡ European AI On Demand</h2>
+      <p><strong>AI On Demand</strong> is the European Union’s flagship platform to centralize trustworthy AI resources, tools, datasets, and solutions. It aligns with the European Commission’s strategy for trustworthy AI and supports adoption across sectors.</p>
+      <a class="cta" href="https://www.ai-dock.eu/" target="_blank">Visit AI On Demand Platform</a>
+    </section>
+    <section>
+      <h2>🇨🇭 Swiss LLM Models</h2>
+      <p><strong>SwissGPT</strong> is a Falcon-based multilingual LLM co-developed by AlpineAI, EPFL, and Swiss institutions. It focuses on high-trust environments, sovereignty, and multilingual access across Swiss languages.</p>
+      <a class="cta" href="https://alpineai.swiss/en/" target="_blank">Explore SwissGPT</a>
+    </section>
+    <section>
+      <h2>🤖 ADRA – AI, Data & Robotics Association</h2>
+      <p><strong>ADRA</strong> is a key stakeholder group under the EU’s AI-Data-Robotics public-private partnership. It unites more than 180 members and helps define the EU’s strategic roadmap for responsible and sovereign AI.</p>
+      <a class="cta" href="https://adr-association.eu" target="_blank">Learn about ADRA</a>
+    </section>
+    <section>
+      <h2>🏛️ European AI Office</h2>
+      <p>The <strong>European AI Office</strong>, part of the European Commission, is responsible for enforcing and guiding the implementation of the EU AI Act. It promotes responsible AI, coordinates codes of practice, and supports the creation of AI sandboxes.</p>
+      <a class="cta" href="https://digital-strategy.ec.europa.eu/en/policies/ai-office" target="_blank">Visit EU AI Office</a>
+    </section>
+    <section>
+      <h2>🧠 European LLM Projects (Community-Driven)</h2>
+      <p>These initiatives represent a growing open ecosystem for LLMs across Europe and multilingual GenAI development.</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Project Name</th>
+            <th>Country</th>
+            <th>Contact</th>
+            <th>Link</th>
+            <th>Discord</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr>
+            <td>Insat</td>
+            <td>Bulgaria</td>
+            <td>bggpt@insait.ai</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>CroAI</td>
+            <td>Croatia</td>
+            <td>nan</td>
+            <td><a href="https://www.linkedin.com/posts/croai_large-language-models-have-demonstrated-impressive-activity-7167796231417520128-AlDs/" target="_blank">Link</a></td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>Czech BERT</td>
+            <td>Czech Republic</td>
+            <td>sidoj@kiv.zcu.cz</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>Danskgpt</td>
+            <td>Denmark</td>
+            <td>vasu.sharma@recursionpharma.com</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>Stability AI</td>
+            <td>UK</td>
+            <td>nan</td>
+            <td><a href="https://stability.ai/contact" target="_blank">Link</a></td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>TartuNLP</td>
+            <td>Estonia</td>
+            <td>ping@tartunlp.ai</td>
+            <td>-</td>
+            <td><a href="https://discord.gg/tartunlp" target="_blank">Discord</a></td>
+          </tr>
+    
+          <tr>
+            <td>PORO silogen</td>
+            <td>Finland</td>
+            <td>Founderpeter.sarlin@silo.ai</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>Le Bon LLM</td>
+            <td>France</td>
+            <td>nan</td>
+            <td><a href="https://www.linkedin.com/company/le-bon-llm/" target="_blank">Link</a></td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>OpenLLM France</td>
+            <td>France</td>
+            <td>contact@openllm-france.fr</td>
+            <td><a href="https://www.openllm-france.fr" target="_blank">Link</a></td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>LAION</td>
+            <td>Germany</td>
+            <td>contact@laion.ai</td>
+            <td>-</td>
+            <td><a href="https://discord.com/invite/laion" target="_blank">Discord</a></td>
+          </tr>
+    
+          <tr>
+            <td>OpenGPTX</td>
+            <td>Germany</td>
+            <td>opengpt-x@ki-verband.de</td>
+            <td>-</td>
+            <td><a href="https://discord.gg/ZmF2dJgJ" target="_blank">Discord</a></td>
+          </tr>
+    
+          <tr>
+            <td>Fraunhofer IAIS</td>
+            <td>Germany</td>
+            <td>info@iais.fraunhofer.de</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>GFOSS</td>
+            <td>Greece</td>
+            <td>info@eellak.gr</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>Hilanco</td>
+            <td>Hungary</td>
+            <td>tavaradi@gmail.com</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>gaBERT</td>
+            <td>Ireland</td>
+            <td>alan.cowap2@mail.dcu.ie</td>
+            <td>-</td>
+            <td><a href="https://discord.com/invite/b5UQTWQn" target="_blank">Discord</a></td>
+          </tr>
+    
+          <tr>
+            <td>Fauno Italian LLM</td>
+            <td>Italy</td>
+            <td>bacciu@diag.uniroma1.it</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>NLP Odyssey</td>
+            <td>Italy</td>
+            <td>matteogrella@gmail.com</td>
+            <td>-</td>
+            <td><a href="https://discord.gg/nlpodyssey" target="_blank">Discord</a></td>
+          </tr>
+    
+          <tr>
+            <td>LVBERT</td>
+            <td>Latvia</td>
+            <td>hello@peteris.rocks</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>EMBEDDIA</td>
+            <td>Lithuania/Slovenia</td>
+            <td>info@embeddia.eu</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>BERTu</td>
+            <td>Malta</td>
+            <td>nan</td>
+            <td><a href="https://www.linkedin.com/in/claudia-borg-ai/" target="_blank">Link</a></td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>Polbert</td>
+            <td>Poland</td>
+            <td>darek@wandb.com</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>Sabia</td>
+            <td>Portugal</td>
+            <td>ramon@maritaca.ai</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>LLM for Romanian</td>
+            <td>Romania</td>
+            <td>contact@ilds.ro</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>Beia Consult</td>
+            <td>Romania</td>
+            <td>office@beia.ro</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>Serbian LLM</td>
+            <td>Serbia</td>
+            <td>nan</td>
+            <td><a href="https://www.linkedin.com/in/aleksagordic/" target="_blank">Link</a></td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>KInit</td>
+            <td>Slovakia</td>
+            <td>nan</td>
+            <td><a href="https://www.linkedin.com/in/juraj-bezdek-6b521346/" target="_blank">Link</a></td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>Projecte Aina</td>
+            <td>Spain</td>
+            <td>aina@bsc.es</td>
+            <td>-</td>
+            <td><a href="https://discord.gg/projecte-aina" target="_blank">Discord</a></td>
+          </tr>
+    
+          <tr>
+            <td>BSC</td>
+            <td>Spain</td>
+            <td>info@bsc.es</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>AI Sweden</td>
+            <td>Sweden</td>
+            <td>johanna.bergman@ai.se</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>Satisfied</td>
+            <td>Sweden</td>
+            <td>info@statisfied.io</td>
+            <td>-</td>
+            <td><a href="https://discord.gg/statisfied" target="_blank">Discord</a></td>
+          </tr>
+    
+          <tr>
+            <td>Luxembourg LIST</td>
+            <td>Luxembourg</td>
+            <td>jordi.cabot@list.lu</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+    
+          <tr>
+            <td>YugoGPT</td>
+            <td>Balkan Region</td>
+            <td>nan</td>
+            <td><a href="https://www.linkedin.com/in/aleksagordic/" target="_blank">Link</a></td>
+            <td><a href="https://discord.gg/yugogpt" target="_blank">Discord</a></td>
+          </tr>
+    
+        </tbody>
+      </table>
+      <p class="note">This list is curated from OpenLLM Europe and partner contributions. Help us improve it via GitHub!</p>
+    </section>
+    <section>
+      <h2>🔗 Resources & Community</h2>
+      <ul>
+        <li><a href="https://github.com/kunalsuri/europe-genai" target="_blank">GitHub Repository</a></li>
+        <li><a href="https://discord.gg/8cHZ6NVwxd" target="_blank">OpenLLM Europe Discord</a></li>
+        <li><a href="https://language-data-space.ec.europa.eu/related-initiatives/alt-edic_en" target="_blank">ALT‑EDIC Initiative</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>🤝 Contribute & Stay Updated</h2>
+      <p>This project is open for collaboration. Found a new model or policy? Submit a pull request or <a href="https://github.com/kunalsuri/europe-genai/issues">open an issue</a>.</p>
+    </section>
+  </main>
 </body>
 </html>
