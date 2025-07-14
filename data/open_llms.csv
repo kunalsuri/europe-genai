@@ -1,0 +1,4 @@
+name,country,organization,license,url
+OpenEuroLLM,EU-wide,EU Consortia,Apache,https://github.com/OpenLLM-Europe
+Lucie 7B,France,Mistral + Inria,MIT,https://huggingface.co/IA-FR/Lucie
+SwissGPT,Switzerland,EPFL + Idiap,Custom,https://example.com
